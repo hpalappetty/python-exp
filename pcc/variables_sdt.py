@@ -14,3 +14,8 @@ print(full_name.title())
 
 full_name = f"Hello, {first_name} {last_name}!"
 print(full_name.title())
+
+favourite_language = ' python '
+print(favourite_language.rstrip())
+print(favourite_language.lstrip())
+print(favourite_language.strip())

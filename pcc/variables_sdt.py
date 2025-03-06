@@ -19,3 +19,10 @@ favourite_language = ' python '
 print(favourite_language.rstrip())
 print(favourite_language.lstrip())
 print(favourite_language.strip())
+
+# removing prefixes
+
+nostarch_url = 'https://nostarch.com'
+res = nostarch_url.removeprefix('https://')
+print(f"before {nostarch_url} and after {res}")
+

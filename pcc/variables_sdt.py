@@ -26,3 +26,6 @@ nostarch_url = 'https://nostarch.com'
 res = nostarch_url.removeprefix('https://')
 print(f"before {nostarch_url} and after {res}")
 
+#underscores to make large numbers readable
+universe_age=14_000_000_000
+print(universe_age)
